@@ -1,0 +1,189 @@
+    /*
+    * Alex Trujillo Webpage CSS
+    */
+
+    body{
+     margin: 0;
+     padding: 0 ;
+     font-family: 'Montserrat', sans-serif;
+
+    }
+      h1 {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 58px;
+        margin-bottom: 20px;
+        color: #202020;
+        font-weight: 400;
+        font-family: 'Montserrat', sans-serif;
+       }
+      
+      h2 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 20px;
+        color: #202020;
+        font-family: 'Montserrat', sans-serif; 
+      }
+      
+      h3 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 38px;
+        margin-bottom: 30px;
+        color: #202020;
+        font-family: 'Montserrat', sans-serif; 
+      }
+      
+      h4 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 38px;
+        color: #202020;
+        margin-bottom: 8px;
+        font-family: 'Montserrat', sans-serif; 
+      }
+      
+      h5 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 32px;
+        color: #202020;
+        margin-bottom: 8px;
+        font-family: 'Montserrat', sans-serif; 
+      }
+      
+      h6 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 8px;
+        color: #202020;
+        font-family: 'Montserrat', sans-serif; 
+      }
+      
+      
+
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 24px;
+        color: #767676; 
+      }
+
+      a {
+        color: #212529;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none; 
+      }
+  
+  
+      header {
+        position: relative; 
+        display: block;
+        padding-top: 40px;
+      }
+      main {
+        position: relative; 
+        display: block;
+        padding-top: 40px;
+      }
+      section {
+        position: relative; 
+        display: block;
+        padding-top: 40px;
+      }
+      footer {
+        position: relative; 
+        display: block;
+        background: #eee;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        z-index: 100;
+        bottom: 0;
+      }
+      address{
+        position: relative; 
+        display: block;
+        padding-top: 80px;
+      }
+
+      fieldset{
+        border: 2px solid #ddd;
+        margin: 20px;
+        padding: 2px;
+      }
+      legend{
+        font-size: 16px;
+        font-weight: 900;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+
+      fieldset > span.info{
+        font-family: 'Open Sans', sans-serif;
+        padding: 20px 40px;
+        display: block;
+        /*color:#42579c;
+        border: 1px solid #6278B0;
+        background: url("./images/mt-bout-me.jpg") no-repeat center left #CCE9F8;*/
+        background-size: 50%;
+      }
+      
+      .toolbar{
+        position: fixed;
+        background: #eee;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        top:0;
+        z-index: 100;
+      }
+      .tool-img{
+        position: relative;
+        float: left;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 32px;
+      }
+
+      .profile{
+        display: flex; 
+        align-items:top;
+        padding: 0;
+        margin: 0;
+      }
+      .personal-information{
+        margin: 32px;
+        padding: 0;
+      }
+      .personal-img{
+        position: relative;
+        margin-top: 64px;
+
+      
+      }
+      .formElement, select{
+        width: 250px;
+        padding: 5px 10px;
+      }
+
+
+      .container{
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-right: 32px;
+
+      }
+
+      .foo-text{
+        font-family: 'Open Sans', sans-serif;
+        line-height: 24px;
+        padding: 8px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+      }
